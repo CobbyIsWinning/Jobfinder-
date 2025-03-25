@@ -1,0 +1,25 @@
+.job-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.job-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.Details-button {
+    background-color: rgb(120, 120, 230);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+.job-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+}
+.Job-container {
+             justify-content: center;
+             align-items: center;
+             display: flex;
+}
+.job-title {
+    text-decoration: underline;
+}
