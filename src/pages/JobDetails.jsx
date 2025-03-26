@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import "../components/Jobdetails.css";
 
-const API_URL = "http://localhost:5000/api/jobs"; 
+const API_URL = "https://jobfinder-nodefiles.onrender.com/api/jobs"; 
 
 const JobDetails = () => {
   const { id } = useParams();
